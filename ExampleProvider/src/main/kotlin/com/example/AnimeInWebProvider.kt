@@ -210,12 +210,12 @@ class AnimeInWebProvider : MainAPI() {
 
     // the explore endpoint can't sort newest first, home/data "new" is what the site shows as Terbaru
     override val mainPage = mainPageOf(
-        "home:new" to "Terbaru",
-        "views" to "Populer",
-        "schedule" to "Jadwal Hari Ini",
-        "home:hot" to "Hot",
+        "home:hot" to "SEDANG HANGAT",
+        "schedule" to "ANIME HARI INI",
+        "home:new" to "Baru Ditambahkan",
         "home:waiting" to "Akan Tayang",
-        "home:random" to "Acak"
+        "views" to "POPULER",
+        "home:random" to "JAS POR YU"
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
