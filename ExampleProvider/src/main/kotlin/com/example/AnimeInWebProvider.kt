@@ -212,8 +212,8 @@ class AnimeInWebProvider : MainAPI() {
     override val mainPage = mainPageOf(
         "home:hot" to "SEDANG HANGAT",
         "schedule" to "ANIME HARI INI",
-        "home:new" to "Baru Ditambahkan",
-        "home:waiting" to "Akan Tayang",
+        "home:new" to "BARU DITAMBAHKAN",
+        "home:waiting" to "PALING DITUNGGU",
         "views" to "POPULER",
         "home:random" to "JAS POR YU"
     )
